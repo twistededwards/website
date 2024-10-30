@@ -8,18 +8,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About', link: '/about.html' },
+      { text: 'About', items: [
+	{ text: 'Impressum', link: '/about/impressum.html' },
+	{ text: 'Privacy Policy', link: '/about/privacy-policy.html'},
       //{ text: 'People', link: '/people.html' }
+	]}
     ],
 
     sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples.html' },
-          { text: 'Runtime API Examples', link: '/api-examples.html' }
-        ]
-      }
     ],
 
     socialLinks: [
@@ -28,7 +24,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Website released under the <a href="https://github.com/twistededwards/website/blob/master/COPYING">GPLv3 License</a>. Solution by <a href="https://www.digilol.net">Digilol</a>.',
+      message: '<a href="/policy/privacy-policy.html">Privacy Policy</a><br />Website released under the <a href="https://github.com/twistededwards/website/blob/master/COPYING">GPLv3 License</a>. Solution by <a href="https://www.digilol.net">Digilol</a>.',
       copyright: 'Copyright © 2024 Twisted Edwards z.s.'
     }
   }

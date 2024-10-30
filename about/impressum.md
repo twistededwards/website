@@ -1,8 +1,15 @@
 ---
+layout: doc
+title: Impressum
+description: Twisted Edwards z.s. Impressum
 prev: false
 next: false
 sidebar: false
+footer: false
 ---
+
+# Impressum
+
 Twisted Edwards z.s., Rybná 716/24, Staré Město, 110 00 Praha 1, Czechia
 
 Signal: +420 703-981-539

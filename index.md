@@ -9,6 +9,21 @@ hero:
       text: Contact us
       link: "mailto:orga@twed.org"
 markdownStyles: false
+
+features:
+  - title: Educational Event Production
+    icon: 🎉
+    details: We handle everything from planning to execution, creating impactful events for learning and collaboration.
+    link: '#'
+  - title: Workshops & Training
+    icon: 🎓
+    details: From beginner workshops to advanced training, we host sessions that empower individuals and organizations in IT security and privacy.
+    link: '#'
+  - title: Research Support & Collaboration
+    icon: 🔬
+    details: Partnering with researchers, we provide resources and collaboration opportunities in cryptography and distributed systems.
+    link: '#'
+
 ---
 
 <div class="bg-graph" />
@@ -23,6 +38,7 @@ markdownStyles: false
   background-image: url("/te.svg");
   background-position: center;
   background-size: cover;
+  z-index: -1;
 }
 
 .dark .bg-graph {
