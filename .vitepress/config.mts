@@ -24,7 +24,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '<a href="/policy/privacy-policy.html">Privacy Policy</a><br />Website released under the <a href="https://github.com/twistededwards/website/blob/master/COPYING">GPLv3 License</a>. Solution by <a href="https://www.digilol.net">Digilol</a>.',
+      message: '<a href="/about/privacy-policy.html">Privacy Policy</a><br />Website released under the <a href="https://github.com/twistededwards/website/blob/master/COPYING">GPLv3 License</a>. Solution by <a href="https://www.digilol.net">Digilol</a>.',
       copyright: 'Copyright © 2024 Twisted Edwards z.s.'
     }
   }
