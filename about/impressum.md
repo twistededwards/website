@@ -12,7 +12,7 @@ footer: false
 
 Twisted Edwards z.s., Rybná 716/24, Staré Město, 110 00 Praha 1, Czechia
 
-Signal: +420 703-981-539
+Signal: +420 234-149-113
 
 E-mail: orga@twed.org
 
