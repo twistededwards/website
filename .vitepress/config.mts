@@ -12,7 +12,8 @@ export default defineConfig({
 	{ text: 'Impressum', link: '/about/impressum.html' },
 	{ text: 'Privacy Policy', link: '/about/privacy-policy.html'},
       //{ text: 'People', link: '/people.html' }
-	]}
+	]},
+      { text: 'Donate', link: '/donate.html' }
     ],
 
     sidebar: [
